@@ -3,9 +3,9 @@ USE refren777;
 
 SELECT * FROM cars;
 -- найти все машины старше 2000 г
-SELECT * FROM cars WHERE year>2000;
+SELECT * FROM cars WHERE year<2000;
 -- найти все машины младше 2015 г
-SELECT * FROM cars WHERE year<2015;
+SELECT * FROM cars WHERE year>2015;
 -- найти все машины 2008, 2009, 2010 годов
 SELECT * FROM cars WHERE year BETWEEN 2008 AND 2010;
 -- найти все машины не с этих годов 2008, 2009, 2010 годов
